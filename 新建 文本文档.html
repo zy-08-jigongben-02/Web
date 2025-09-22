@@ -1,0 +1,80 @@
+ <!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主业 - 张XX同学</title>
+    <style>
+        /* 全局核心要求：100%黑白+宋体 */
+        body {
+            font-family: "宋体", SimSun, sans-serif; /* 强制宋体 */
+            line-height: 1.8;
+            margin: 30px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #fff; /* 白背景 */
+            color: #000; /* 黑文字 */
+        }
+
+        /* 标题：还原手写居中+自然感 */
+        .title {
+            text-align: center;
+            font-size: 26px;
+            margin-bottom: 30px;
+            font-weight: normal; /* 去掉加粗，更像手写 */
+        }
+
+        /* 核心信息列表：还原手写带圈序号+排版 */
+        .info-list {
+            list-style: none; /* 清除默认列表符号 */
+            padding-left: 0;
+            margin-left: 30px; /* 左侧留空突出序号 */
+            font-size: 18px;
+        }
+
+        .info-list li {
+            margin-bottom: 15px; /* 列表项间距，贴近手写密度 */
+        }
+
+        /* 自我评价：还原手写段落风格 */
+        .self-eval {
+            font-size: 18px;
+            margin: 20px 0;
+        }
+
+        /* 样式要求栏：突出是“要求”而非内容，保持黑白 */
+        .style-req {
+            display: flex;
+            justify-content: space-between;
+            font-size: 18px;
+            margin-top: 30px;
+            padding-top: 10px;
+            border-top: 1px dashed #999; /* 灰色虚线分隔，不破坏黑白 */
+        }
+    </style>
+</head>
+<body>
+    <!-- 标题：原图核心内容 -->
+    <h1 class="title">个人主业 张XX同学</h1>
+
+    <!-- 核心信息列表：原图①-⑥内容100%保留 -->
+    <ul class="info-list">
+        <li>① 毕业于山东省某中学，在此期间就读三年</li>
+        <li>② 优势学科为数学类（高数、线代等），平均分数90+；除此之外还参加过蓝桥杯，获得过三等奖</li>
+        <li>③ 擅长技能：跑步、思考、尝试</li>
+        <li>④ 参加社区志愿服务，看望孤寡老人</li>
+        <li>⑤ 目前就读于计本1班，平时常参加学校活动</li>
+        <li>⑥ 爱好：听歌、跑步、游戏</li>
+    </ul>
+
+    <!-- 自我评价：原图内容 -->
+    <p class="self-eval">自我评价：做事效率高但常常半途而废，需改进。</p>
+
+    <!-- 样式要求：明确是“要求”，保持黑白+宋体 -->
+    <div class="style-req">
+        <span>色调→黑白</span>
+        <span>字体→宋体</span>
+    </div>
+</body>
+</html>
